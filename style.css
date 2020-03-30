@@ -1,0 +1,14 @@
+
+body{
+    background-color: gray;
+}
+.grid{
+    width: 100;
+    display: grid;
+    align-items: center;
+background-color: red;
+}
+form{
+    border: black;
+    width: 400;
+}
