@@ -9,7 +9,7 @@ body {
 .tittle, .recaptcha, .footer, .footer ul, .sign-in, .container  {
     display: flex;
 }
-.learn-more a, .already p a{
+.accounts a,.learn-more a, .already p a{
     color: blue;
 }
 .container {
