@@ -65,7 +65,6 @@ body {
     background-color: grey;
     line-height: 2rem;
 }
-/*
 .footer {
     display: flex;
     flex-direction: column;
@@ -82,9 +81,8 @@ body {
     list-style-type: none;
     cursor: pointer;
     color: black;
-    margin-left: 10px;
+    margin-right: 10px;
 }
-
 .footer p {
     font-size: 14px;
     width: 900;
