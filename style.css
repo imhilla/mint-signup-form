@@ -22,23 +22,22 @@ body {
     text-decoration: none;
     color: blue;
 }
-.form-group input {
-    border: 0.3px solid rgb(41, 37, 37);
+.form-group {
+    display: grid;
+    justify-content: center;
+    line-height: 3rem;
 }
-.form-group{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
- 
-}
-.form-group input {
-    border-radius: 5px;
 
-
+.form-group input {
+    margin: 0;
+    border-radius: 2px;
+    width: 350px;
+    border: 0.5px solid grey;
+    line-height: 2rem;
 }
-/*
+
 .accounts {
-    width: 250px;
+    width: 290px;
     line-height: 2rem;
     margin-left: 100px;
     font-style: italic;
@@ -56,7 +55,7 @@ body {
     border: none;
     border-radius: 5px;
     color: white;
-    padding: 10px 105px;
+    padding: 15px 140px;
     text-align: center;
     font-size: 16px;
     margin: 30px 56px;
@@ -65,7 +64,7 @@ body {
 .recaptcha {
     display: flex;
     justify-content: space-around;
-    width: 160;
+    width: 300;
     font-size: 12px;
     background-color: grey;
     line-height: 2.5rem;
