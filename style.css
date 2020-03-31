@@ -8,12 +8,8 @@ body {
     display: grid;
     justify-content: center;
     background-color: white;
-    width: 500;
+    width: 290;
     height: inherit;
-}
-img {
-    float: inherit;
-    margin-right: px;
 }
 .tittle {
     display: flex;
@@ -31,22 +27,20 @@ img {
     border: 0.5px solid black;
 }
 
-.form-group {
+.form-group{
     display: grid;
     justify-content: center;
-    line-height: 3rem;
+    line-height: 2.4em;
 }
 
 .form-group input {
-    margin: 0;
     border-radius: 5px;
-    width: 400px;
+    width: 340px;
     border-color: grey;
-    line-height: 3rem;
+    line-height: 2rem;
 }
-
 .accounts {
-    width: 300px;
+    width: 250px;
     line-height: 2rem;
     margin-left: 100px;
     font-style: italic;
@@ -64,7 +58,7 @@ img {
     border: none;
     border-radius: 5px;
     color: white;
-    padding: 15px 140px;
+    padding: 10px 105px;
     text-align: center;
     font-size: 16px;
     margin: 30px 56px;
@@ -73,7 +67,7 @@ img {
 .recaptcha {
     display: flex;
     justify-content: space-around;
-    width: 300;
+    width: 160;
     font-size: 12px;
     background-color: grey;
     line-height: 2.5rem;
