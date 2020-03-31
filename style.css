@@ -48,7 +48,7 @@ body {
     border: none;
     border-radius: 5px;
     color: white;
-    padding: 15px 140px;
+    padding: 13px 116px;
     text-align: center;
     font-size: 16px;
     margin: 30px 56px;
@@ -57,7 +57,6 @@ body {
 .recaptcha {
     display: flex;
     justify-content: space-around;
-    width: 290;
     font-size: 11px;
     background-color: grey;
     line-height: 2rem;
