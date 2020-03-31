@@ -6,7 +6,12 @@ body {
     border: 1px solid black;
     background-color:#f7f5f5 ;
 }
-
+.tittle, .recaptcha, .footer, .footer ul, .sign-in{
+    display: flex;
+}
+.learn-more a, .already p a{
+    color: blue;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -14,7 +19,6 @@ body {
    
 }
 .tittle {
-    display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 0.3rem;
@@ -22,7 +26,6 @@ body {
 }
 .learn-more a {
     text-decoration: none;
-    color: blue;
 }
 .form-group {
     display: grid;
@@ -60,20 +63,17 @@ body {
     cursor: pointer;
 }
 .recaptcha {
-    display: flex;
     justify-content: space-around;
     font-size: 10px;
-    background-color: grey;
+    background-color: rgb(223, 217, 217);
     line-height: 2rem;
 }
 .footer {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer ul {
-    display: flex;
     flex-direction: row;
     margin-right: 10px;
 }
@@ -88,4 +88,24 @@ body {
 .footer p {
     font-size: 13px;
     width: 900;
+}
+.sign-in{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.sign-in-container button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 9px 15px;
+    margin-top: 2px;
+}
+.already{
+    line-height: 0.3rem;
+    font-size: 12px;
+    margin-right: -40px;
+}
+.already p a{
+    text-decoration: none;
 }
