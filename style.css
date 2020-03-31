@@ -6,14 +6,13 @@ body {
     border: 1px solid black;
     background-color:#f7f5f5 ;
 }
-.tittle, .recaptcha, .footer, .footer ul, .sign-in{
+.tittle, .recaptcha, .footer, .footer ul, .sign-in, .container  {
     display: flex;
 }
 .learn-more a, .already p a{
     color: blue;
 }
 .container {
-    display: flex;
     flex-direction: column;
     align-items: center;
    
