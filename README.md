@@ -3,6 +3,7 @@ This project consists of building an HTML document that matches the appearance o
 The goal here was to produce an exact replica of the sign-up page.
 
 Here are some of the things i did
+
 Created a blank HTML document.
 Planned out how the elements on the page needed to be grouped together.
 Layed out the empty semantic HTML elements for the major sections (form, sidebar, footer…) and made them the proper size and alignment. 
