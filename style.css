@@ -1,15 +1,16 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
 .border {
     border: 1px solid black;
 }
+
 .container {
-    display: grid;
-    justify-content: center;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 290;
-    height: inherit;
 }
 .tittle {
     display: flex;
@@ -17,28 +18,25 @@ body {
     align-items: center;
     line-height: 0.3rem;
 }
-
 .learn-more a {
     text-decoration: none;
     color: blue;
 }
-
 .form-group input {
-    border: 0.5px solid black;
+    border: 0.3px solid rgb(41, 37, 37);
 }
-
 .form-group{
-    display: grid;
-    justify-content: center;
-    line-height: 2.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+ 
 }
-
 .form-group input {
     border-radius: 5px;
-    width: 340px;
-    border-color: grey;
-    line-height: 2rem;
+
+
 }
+/*
 .accounts {
     width: 250px;
     line-height: 2rem;
