@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     line-height: 0.3rem;
+    font-size: 13px;
 }
 .learn-more a {
     text-decoration: none;
@@ -61,7 +62,7 @@ body {
 .recaptcha {
     display: flex;
     justify-content: space-around;
-    font-size: 11px;
+    font-size: 10px;
     background-color: grey;
     line-height: 2rem;
 }
@@ -81,9 +82,10 @@ body {
     list-style-type: none;
     cursor: pointer;
     color: black;
-    margin-right: 10px;
+    margin-right: 10px; 
+    line-height: 0.3rem;
 }
 .footer p {
-    font-size: 14px;
+    font-size: 13px;
     width: 900;
 }
