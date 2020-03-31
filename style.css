@@ -27,30 +27,23 @@ body {
     justify-content: center;
     line-height: 3rem;
 }
-
 .form-group input {
-    margin: 0;
     border-radius: 2px;
     width: 350px;
     border: 0.5px solid grey;
     line-height: 2rem;
 }
-
 .accounts {
     width: 290px;
     line-height: 2rem;
     margin-left: 100px;
     font-style: italic;
 }
-
 .accounts a {
     text-decoration: none;
 }
-.button-container {
-    display: flex;
-    flex-direction: row;
-}
-.button {
+
+.clickme {
     background-color: blue;
     border: none;
     border-radius: 5px;
@@ -64,10 +57,10 @@ body {
 .recaptcha {
     display: flex;
     justify-content: space-around;
-    width: 300;
-    font-size: 12px;
+    width: 290;
+    font-size: 11px;
     background-color: grey;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .footer {
